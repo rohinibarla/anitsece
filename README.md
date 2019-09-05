@@ -2,7 +2,7 @@
 
 #### Pre-workshop 
 
-Read fundamentals of computing (computer, assembler, compiler) [here](https://github.com/rohinibarla/anitsece/raw/master/ref/FOC_cac.pdf).  
+Read fundamentals of computing (computer, assembler, compiler) [here](https://github.com/rohinibarla/anitsece/raw/master/ref/FOC_cac.pdf).
 
 Click on examples to check the visualization of the code.
 
@@ -34,7 +34,7 @@ int main() {
 
 [Linked List example](http://www.pythontutor.com/c.html#code=%23include%20%3Cstdio.h%3E%0A%23include%20%3Cstdlib.h%3E%0A%0Atypedef%20struct%20node%20%7B%0A%20%20%20%20int%20value%3B%0A%20%20%20%20struct%20node%20*next%3B%0A%7D%20LinkedListNode%3B%0A%0A%0ALinkedListNode%20*createLinkedListNode%28int%20data%29%20%7B%0A%20%20%20%20LinkedListNode%20*node%20%3D%20%28LinkedListNode%20*%29malloc%28sizeof%28LinkedListNode%29%29%3B%0A%20%20%20%20node-%3Enext%20%3D%20NULL%3B%0A%20%20%20%20node-%3Evalue%20%3D%20data%3B%0A%20%20%20%20return%20node%3B%0A%7D%0A%0A%0ALinkedListNode%20*createLL%28%29%20%7B%0A%20%20%20%20LinkedListNode%20*a%20%3D%20createLinkedListNode%285%29%3B%0A%20%20%20%20LinkedListNode%20*b%20%3D%20createLinkedListNode%281%29%3B%0A%20%20%20%20LinkedListNode%20*c%20%3D%20createLinkedListNode%289%29%3B%0A%0A%20%20%20%20a-%3Enext%20%3D%20b%3B%0A%20%20%20%20b-%3Enext%20%3D%20c%3B%0A%0A%20%20%20%20return%20a%3B%0A%7D%0A%0Aint%20main%28%29%20%7B%0A%20%20%20%20LinkedListNode%20*head%3B%0A%20%20%20%20head%20%3D%20createLL%28%29%3B%0A%20%20%20%20return%200%3B%0A%7D&curInstr=0&mode=display&origin=opt-frontend.js&py=c&rawInputLstJSON=%5B%5D)
 
-Read about [Linked List DS](https://github.com/rohinibarla/anitsece/blob/master/ref/LLDS.pdf)
+Read about [Linked List DS](https://github.com/rohinibarla/anitsece/raw/master/ref/LLDS.pdf)
 
 ```c
 #include <stdio.h>
